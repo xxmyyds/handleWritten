@@ -6,7 +6,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "test": "jest",
-    "commit": "cz"
+    "commit": "git add . && git-cz && git push origin master"
   },
   "config": {
     "commitizen": {
